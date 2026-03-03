@@ -7,9 +7,10 @@
     <title>@yield('title')</title>
     @section('styles')
         <link rel="stylesheet" href="{{ asset('vendor/bootstrap/bootstrap.min.css') }}">
-       {{--  <link rel="stylesheet" href="{{ asset('css/app.css') }}"> --}}
+        {{--  <link rel="stylesheet" href="{{ asset('css/app.css') }}"> --}}
         <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
         <link rel="stylesheet" href="{{ asset('vendor/fa/css/all.min.css') }}">
+        @vite(['resources/css/app.css'])
     @show
 </head>
 <body>
@@ -25,7 +26,7 @@
     @section('scripts')
         <script src="{{ asset('vendor/jquery/jquery-3.5.1.min.js') }}"></script>
         <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-        <script src="{{ asset('js/app.js') }}"></script>
+        @vite(['resources/js/app.js'])
         <script>
             $('.confirmation').on('click', function () {
                 return confirm('Esta seguro de ejecutar esta acción?');
