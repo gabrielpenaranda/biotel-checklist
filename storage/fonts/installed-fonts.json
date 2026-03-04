@@ -1,0 +1,19 @@
+{
+    "font awesome 6 brands": {
+        "normal": "font_awesome_6_brands_normal_365b1122093756d726259322b69a70b4"
+    },
+    "font awesome 6 free": {
+        "normal": "\/home\/gpg\/Code\/laravel\/biotel-checklist-l10\/storage\/fonts\/font_awesome_6_free_normal_fc88f5ed68760020af6ea19024f44c8e",
+        "900": "font_awesome_6_free_900_e32a1e4b9b216a616081175466e1ff0b"
+    },
+    "font awesome 5 brands": {
+        "normal": "font_awesome_5_brands_normal_365b1122093756d726259322b69a70b4"
+    },
+    "font awesome 5 free": {
+        "900": "\/home\/gpg\/Code\/laravel\/biotel-checklist-l10\/storage\/fonts\/font_awesome_5_free_900_e32a1e4b9b216a616081175466e1ff0b",
+        "normal": "font_awesome_5_free_normal_fc88f5ed68760020af6ea19024f44c8e"
+    },
+    "fontawesome": {
+        "normal": "fontawesome_normal_c2162218d8893a7eff18458bd5735b5e"
+    }
+}
